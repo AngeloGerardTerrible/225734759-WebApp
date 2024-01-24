@@ -16,6 +16,10 @@
             border: 1px solid black;
             padding: 8px;
         }
+        img{
+            width: 200px;
+            height: 200px;
+        }
     </style>
 </head>
 
@@ -23,35 +27,37 @@
 <body>
     <header>
         <img src="https://previews.123rf.com/images/juliakhimich/juliakhimich1812/juliakhimich181200458/114214962-vector-hand-drawn-pet-friendly-sign-head-of-a-curious-cat-pets-allowed-domestic-animals-black-on.jpg"
-            alt="cat_logo" width="200px" height="200px">
+            alt="cat_logo">
     </header>
     <hr>
     <article>
+        <h3>FORM</h3>
         <Form>
-            <section>
+            <div>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required minlength="6" maxlength="12">
 
                 <label for="password">Password:</label>
                 <input type="text" id="password" name="password" required minlength="8">
-            </section>
-            <section>
-                <label for="gender">Gender:</label>
+            </div>
+            <div>
+                <label>Gender:</label>
                 <label for="male">Male</label>
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="female">Female</label>
                 <input type="radio" id="female" name="gender" value="female">
-            </section>
-            <section>
-                <label for="Terms and condition">
-                    <input type="checkbox" name="terms" id="terms" required>Accept Terms and Conditions
+            </div>
+            <div>
+                <label for="Terms_and_condition">
+                    <input type="checkbox" name="terms" id="Terms_and_condition" required>Accept Terms and Conditions
                 </label>
                 <input type="submit" value="submit">
-            </section>
+            </div>
         </Form>
     </article>
     <hr>
     <article>
+        <h3>Table</h3>
         <table>
             <thead>
                 <tr>
@@ -77,12 +83,11 @@
     <hr>
     <article>
         <h4>Ride of the Valkeries</h4>
-        <audio controls autoplay="false">
-            <source src="Ride_of_The _Valkyries.mp3" type="audio/mp3">
+        <audio controls>
+            <source src="Ride_of_The_Valkyries.mp3" type="audio/mp3">
         </audio>
     </article>
     <HR>
-    </HR>
     <article>
         <h4>Austin Powers Radar Jokes</h4>
         <video controls>
