@@ -93,3 +93,23 @@ footer{
     color: #333;
     display: block;
 }
+p, blockquote{
+    padding-left: 10%;
+}
+p a{
+    color: black;
+}
+p a:hover{
+    color: green;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 238, 218);
+    padding-left: 10px;
+    font-weight: 200px ;
+    
+}
+div.top{
+    background-color: chocolate;
+}
