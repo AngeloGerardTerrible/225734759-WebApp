@@ -75,6 +75,7 @@ hr{
     background-color: #0D1116;
     padding: 1px;
     display: block;
+    margin-top: auto;
 }
 iframe.map{
     width: 480px;
@@ -92,6 +93,7 @@ footer{
     text-align: center;
     color: #333;
     display: block;
+
 }
 p, blockquote{
     padding-left: 10%;
