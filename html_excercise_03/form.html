@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="about_us.html">ABOUT US</a>
+        <a href="form.html">FORM</a>
+        <a href="location.html">LOCATION</a>
+        <a href="feed.html">FACEBOOK FEED</a>
+    </nav>
+
+    <section id="FORM">
+        <div class="top">
+            <h2>Be My Friend</h2>
+        </div>
+        <form action="#" method="post" onsubmit="return validateForm()">
+
+            <label class="block" for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+
+            <label class="block" for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label class="block" for="phone">Phone: </label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{11}" placeholder="09876543210" minlength="11"
+                maxlength="11">
+
+            <Label class="block" for="Gender">Gender: </Label>
+            <label class="radio">Male</label>
+            <input class="radio" type="radio" id="male" name="gender" value="male" checked>
+            <label class="radio">Female</label>
+            <input class="radio" type="radio" id="female" name="gender" value="female">
+
+            <label class="block" for="submit"></label>
+            <input type="submit" id="submit" name="submit">
+        </form>
+    </section>
+    <hr>
+    <footer>
+        &copy; <em id="date">2024 </em>Angelo Terrible
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
